@@ -14,15 +14,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-#error {
-  background-image: url("./assets/404.png");
-  background-color: #111111;
-  /* height: 500px;   */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+ 
 
 
 #backdex {
@@ -33,4 +25,3 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
