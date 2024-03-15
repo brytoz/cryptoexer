@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import { RiArrowLeftRightFill } from "react-icons/ri";
 import { AiFillSetting } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import locker from "../../assets/locker.png";
+
 export default function Dex() {
   return (
     <Fragment>
