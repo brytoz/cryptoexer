@@ -30,9 +30,11 @@ export default function Dex() {
                   </span>
 
                   <div className="px-3 pt-4 pb-2 bg-gray-600/50  shadow-xl shadow-black text-base mb-4 flex items-center justify-between">
-                    <div>
+                    <div className="w-[70%] flex flex-row-reverse justify-between items-center">
                       <div>Fiat</div>
-                      <div>to</div>
+                      <div>
+                        <RiArrowLeftRightFill />
+                      </div>
                       <div>Crypto</div>
                     </div>
                     <div></div>
