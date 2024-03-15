@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import { RiArrowLeftRightFill } from "react-icons/ri";
 import { AiFillSetting } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import { FaToggleOff, FaToggleOn } from "react-icons/fa";
 
 export default function Dex() {
   return (
@@ -25,9 +26,7 @@ export default function Dex() {
               </div>
               <div className="mt-8">
                 <div id="offIt">
-                  <span className="text-right flex justify-end text-xl pb-2 cursor-pointer">
-                    <AiFillSetting />
-                  </span>
+                  
 
                   <div className="px-3 pt-4 pb-2 bg-gray-600/50  shadow-xl shadow-black text-base mb-4 flex items-center justify-between">
                     <div className="w-[70%] flex flex-row-reverse justify-between items-center">
@@ -37,7 +36,10 @@ export default function Dex() {
                       </div>
                       <div>Crypto</div>
                     </div>
-                    <div></div>
+                    <div><span className="text-right flex justify-end text-2xl pb-2 cursor-pointer">
+                    <FaToggleOff />
+                    <FaToggleOn />
+                  </span></div>
                   </div>
                   <div className="mb-4">
                     <div className="px-3 pt-4 pb-2 bg-gray-600/50  shadow-xl shadow-black">
